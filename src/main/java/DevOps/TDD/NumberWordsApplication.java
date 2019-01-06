@@ -19,7 +19,7 @@ public final class NumberWordsApplication {
 				System.out.print( "Enter number (0 to exit): " ) ;
 				String value = reader.readLine() ;
 				int number = Integer.parseInt( value ) ;
-			} catch ( NumberFormatException | IOException e ) {
+			} catch ( IOException e ) {
 				System.out.println( "Invalid number" ) ;
 			}
 		}
