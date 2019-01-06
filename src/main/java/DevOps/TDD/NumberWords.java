@@ -22,7 +22,7 @@ public class NumberWords
 		// close the reader
 		scanner.close();
 	}
-	private static String toWords( int number ) 
+	public static String toWords( int number ) 
 	{
 			
 					// variable to hold string representation of number 
